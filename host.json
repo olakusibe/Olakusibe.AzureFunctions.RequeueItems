@@ -1,5 +1,6 @@
 {
-    "version": "2.0",
+  "version": "2.0",
+  "extensions": {"queues": {"maxDequeueCount": 1}},
     "logging": {
         "applicationInsights": {
             "samplingSettings": {
